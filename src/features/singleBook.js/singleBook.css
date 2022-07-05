@@ -1,0 +1,29 @@
+.single-book {
+    margin-top: 50px;
+}
+.single-book__img {
+    width: 200px;
+}
+.single-book__name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 10px;
+}
+.single-book__descr {
+    margin: 0 20px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.single-book__back {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    justify-self: end;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.single-book__back:hover {
+    color: gray;
+}

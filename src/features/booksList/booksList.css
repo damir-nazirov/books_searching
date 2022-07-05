@@ -1,0 +1,44 @@
+a{
+    text-decoration: none;
+}
+
+.books__list {
+    margin-top: 30px;
+}
+.books__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 225px);
+    justify-content: space-between;
+    row-gap: 55px;
+}
+.books__item {
+    transition: 0.3s transform;
+    list-style-type: none;
+    
+}
+.books__item-img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    width: 128px;
+    height: 195px;
+}
+.books__item-name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.books__item-price {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+}
+.books__item:hover {
+    transform: translateY(-5px);
+}
+
+button{
+    margin: 0 auto 20px auto;
+}
